@@ -1296,9 +1296,9 @@
 
 		#header nav ul li a {
 			display: block;
-			width: 12rem;
-			height: 10rem;
-			padding: 1.66rem 0.5rem;
+			width: 11.5rem;
+			height: 11.5rem;
+			padding: 2.6rem 0.5rem;
 			margin-left: 10px;
 			margin-right: 10px;
 			font-family: Areandina;
@@ -1307,7 +1307,8 @@
 			line-height: 1.4rem;
 			letter-spacing: 0.16rem;
 			border-radius: 50%;
-			border: 6px rgba(250,250,250,0.5) double;
+			border: 6px rgba(119,192,67,0.5) double;
+			background-color: rgba(119,192,67,0.3);
 		}
 
 		#header nav ul li:last-child a,
@@ -1324,7 +1325,7 @@
 		}
 
 		#header nav ul li a:hover {
-			background-color: rgba(255, 255, 255, 0.075);
+			background-color: rgba(119,192,67,0.5);
 		}
 
 		#header nav ul li a:active {
@@ -1501,7 +1502,7 @@
 		position: relative;
 		width: 50rem;
 		max-width: 100%;
-		background-color: rgba(27, 31, 34, 0.85);
+		background-color: rgba(119,192,67,0.5);
 		border-radius: 4px;
 		opacity: 0;
 	}
