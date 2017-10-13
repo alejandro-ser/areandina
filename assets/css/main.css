@@ -1241,10 +1241,10 @@
 			}
 
 		#header .content {
-			border-style: solid;
+			/*border-style: solid;
 			border-color: #ffffff;
 			border-top-width: 1px;
-			border-bottom-width: 1px;
+			border-bottom-width: 1px;*/
 			max-width: 100%;
 		}
 
@@ -1268,9 +1268,10 @@
 
 		#header .content p {
 			text-transform: uppercase;
-			letter-spacing: 0.2rem;
-			font-size: 0.8rem;
-			line-height: 2;
+			letter-spacing: 0.15rem;
+			font-size: 1rem;
+			line-height: 1.8;
+			font-weight: bold;
 		}
 
 		#header nav ul {
@@ -1296,36 +1297,34 @@
 
 		#header nav ul li a {
 			display: block;
-			width: 11.5rem;
-			height: 11.5rem;
-			padding: 2.6rem 0.5rem;
+			width: 12.2rem;
+			height: 12rem;
+			padding: 3rem 0.5rem;
 			margin-left: 10px;
 			margin-right: 10px;
 			font-family: Areandina;
 			text-transform: uppercase;
-			font-size: 0.95rem;
-			line-height: 1.4rem;
+			font-size: 1.1rem;
+			line-height: 1.2rem;
 			letter-spacing: 0.16rem;
 			border-radius: 50%;
-			border: 6px rgba(119,192,67,0.5) double;
-			background-color: rgba(119,192,67,0.3);
+			border: 3px rgba(119,192,67,0.3) solid;
+			background-color: rgba(119,192,67,0.18);
+			box-shadow: 0px 0px 11px rgba(119,192,67,0.4);
 		}
 
 		#header nav ul li:last-child a,
+		#header nav ul li:nth-child(2) a,
 		#header nav ul li:nth-child(3) a {
-		    padding-top: 3.2rem;
-		}
-
-		#header nav ul li:nth-child(2) a {
-		    padding-top: 2.4rem;
-		}
-
-		#header nav ul li:nth-child(4) a {
 		    padding-top: 3.8rem;
 		}
 
+		#header nav ul li:nth-child(4) a {
+		    padding-top: 4.8rem;
+		}
+
 		#header nav ul li a:hover {
-			background-color: rgba(119,192,67,0.5);
+			background-color: rgba(119,192,67,0.3);
 		}
 
 		#header nav ul li a:active {
@@ -1618,6 +1617,16 @@
 
 /* Custom for area andina */
 
+/* Header */
+
+.main-title {
+	font-size: 5rem;
+	color: #ffffff;
+	text-shadow: 0px 0px 20px #555, 0px 0px 5px rgba(119,192,67,0.8);
+}
+
+
+/* Inner pages*/
 #main .side-left {
     right: 75%;
     width: 30rem;
@@ -1627,3 +1636,4 @@
     left: 75%;
     width: 30rem;
 }
+
