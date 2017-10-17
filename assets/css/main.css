@@ -2,8 +2,53 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 @font-face {
-    font-family: 'Areandina';
-    src: url(../fonts/area-andina-regular.otf);
+    font-family: 'Areandina Voz';
+    src: url(../fonts/AreandinaVoz-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Brown Bold';
+    src: url(../fonts/BrownStd-Bold.otf);
+}
+
+@font-face {
+    font-family: 'Brown Bold Italic';
+    src: url(../fonts/BrownStd-BoldItalic.otf);
+}
+
+@font-face {
+    font-family: 'Brown Italic';
+    src: url(../fonts/BrownStd-Italic.otf);
+}
+
+@font-face {
+    font-family: 'Brown Light';
+    src: url(../fonts/BrownStd-Light.otf);
+}
+
+@font-face {
+    font-family: 'Brown Light Italic';
+    src: url(../fonts/BrownStd-LightItalic.otf);
+}
+
+@font-face {
+    font-family: 'Brown Reclin Bold';
+    src: url(../fonts/BrownStd-ReclinBold.otf);
+}
+
+@font-face {
+    font-family: 'Brown Reclin Light';
+    src: url(../fonts/BrownStd-ReclinLight.otf);
+}
+
+@font-face {
+    font-family: 'Brown Reclin';
+    src: url(../fonts/BrownStd-ReclinRegular.otf);
+}
+
+@font-face {
+    font-family: 'Brown';
+    src: url(../fonts/BrownStd-Regular.otf);
 }
 
 /*
@@ -142,9 +187,9 @@
 		color: inherit;
 	}
 
-		a:hover {
-			border-bottom-color: transparent;
-		}
+	a:hover {
+		border-bottom-color: transparent;
+	}
 
 	strong, b {
 		color: #ffffff;
@@ -167,7 +212,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-family: 'Areandina';
+		font-family: 'Areandina Voz';
 		font-weight: 600;
 		line-height: 1.5rem;
 		margin: 0 0 1rem 0;
@@ -175,20 +220,28 @@
 		letter-spacing: 0.1rem;
 	}
 
-		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-			color: inherit;
-			text-decoration: none;
-		}
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		color: inherit;
+		text-decoration: none;
+	}
 
-		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			border-bottom: solid 1px #ffffff;
-			width: -moz-max-content;
-			width: -webkit-max-content;
-			width: -ms-max-content;
-			width: max-content;
-			padding-bottom: 0.5rem;
-			margin: 0 0 1rem 0;
-		}
+	h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
+		border-bottom: solid 1px #ffffff;
+		width: -moz-max-content;
+		width: -webkit-max-content;
+		width: -ms-max-content;
+		width: max-content;
+		padding-bottom: 0.5rem;
+		margin: 0 0 1rem 0;
+	}
+
+	h2.major {
+		font-size: 1.6rem;
+	}
+
+	h2.major span {
+		font-family: 'Brown Bold Italic';
+	}
 
 	h1 {
 		font-size: 3.2rem;
@@ -1273,11 +1326,11 @@
 		}
 
 		#header .content p {
-			text-transform: uppercase;
-			letter-spacing: 0.15rem;
-			font-size: 1rem;
-			line-height: 1.8;
-			font-weight: bold;
+			font-family: 'Brown Bold Italic';
+			font-size: 1.1rem;
+		    letter-spacing: 0.05rem;
+		    line-height: 1.8;
+		    text-transform: uppercase;
 		}
 
 		#header nav ul {
@@ -1308,7 +1361,7 @@
 			padding: 3rem 0.5rem;
 			margin-left: 10px;
 			margin-right: 10px;
-			font-family: Areandina;
+			font-family: 'Areandina Voz';
 			text-transform: uppercase;
 			font-size: 1.1rem;
 			line-height: 1.2rem;
@@ -1323,10 +1376,12 @@
 		#header nav ul li:nth-child(3) a {
 		    padding-top: 3.8rem;
 		}
-
-		#header nav ul li:last-child a,
 		#header nav ul li:nth-child(4) a {
 		    padding-top: 4.8rem;
+		}
+
+		#header nav ul li:last-child a {
+			padding-top: 4.2rem;
 		}
 
 		#header nav ul li a:hover {
@@ -1335,6 +1390,10 @@
 
 		#header nav ul li a:active {
 			background-color: rgba(255, 255, 255, 0.175);
+		}
+
+		#header nav ul li a span {
+		    font-family: 'Brown Bold Italic';
 		}
 
 		#header nav.use-middle:after {
@@ -1505,8 +1564,7 @@
 		transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 		padding: 2.5rem 1.5rem 1.5rem;
 		position: relative;
-		width: 30rem;
-		max-width: 100%;
+		width: 100%;
 		background-color: rgba(119,192,67,0.35);
 		border-radius: 4px;
 		opacity: 0;
@@ -1634,7 +1692,7 @@
 
 
 /* Inner pages*/
-#main .side-left {
+/*#main .side-left {
     right: 75%;
     width: 30rem;
 }
@@ -1642,5 +1700,5 @@
 #main .side-right {
     left: 75%;
     width: 30rem;
-}
+}*/
 
