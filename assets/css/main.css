@@ -237,7 +237,6 @@
 	h2.major {
 		font-family: 'Brown Bold';
 		font-size: 1.6rem;
-		text-transform: capitalize;
 		*color: #78c043;
 	}
 
@@ -1314,13 +1313,18 @@
 			-webkit-transition-delay: 0.25s;
 			-ms-transition-delay: 0.25s;
 			transition-delay: 0.25s;
-			padding: 3rem 2rem 1rem;
+			padding: 0 2rem;
 			max-height: 40rem;
 			overflow: hidden;
 		}
 
 		#header .content .inner > :last-child {
 			margin-bottom: 0;
+		}
+
+		#header .content img {
+		    width: 120px;
+		    border-radius: 50%;
 		}
 
 		#header .content p {
@@ -1355,13 +1359,12 @@
 			padding: 2.6rem 0.5rem;
 			margin-left: 10px;
 			margin-right: 10px;
-			background-color: #ddd;
+			background-color: #fff;
 			box-shadow: 0px 0px 25px rgba(0,0,0,0.6);
-			border: 2px rgba(200,200,200,0.8) solid;
+			border: 5px rgba(200,200,200,0.8) solid;
 			border-radius: 50%;
 			color: #78c043;
 			font-family: 'Brown Bold';
-			text-transform: capitalize;
 			font-size: 1.3rem;
 			line-height: 1.4rem;
 		}
@@ -1374,8 +1377,13 @@
 		    background-color: rgba(244,156,47,0.6);
 		}
 
+		#header nav ul li:first-child a {
+		    border-color: rgba(244,156,47);
+		}
+
 		#header nav ul li:nth-child(2) a {
 		    padding-top: 3.5rem;
+		    border-color: rgba(233,9,140);
 		}
 
 		#header nav ul li:nth-child(2) a:hover {
@@ -1384,6 +1392,7 @@
 
 		#header nav ul li:nth-child(3) a {
 			padding-top: 4rem;
+			border-color: rgba(0,0,0);
 		}
 
 		#header nav ul li:nth-child(3) a:hover {
@@ -1392,10 +1401,15 @@
 
 		#header nav ul li:nth-child(4) a {
 		    padding-top: 4.8rem;
+		    border-color: rgba(119,192,67);
 		}
 
 		#header nav ul li:nth-child(4) a:hover {
 			background-color: rgba(119,192,67,0.6);
+		}
+
+		#header nav ul li:nth-child(5) a {
+			border-color: rgb(180,180,180);
 		}
 
 		#header nav ul li:nth-child(5) a:hover {
@@ -1404,6 +1418,7 @@
 
 		#header nav ul li:last-child a {
 			padding-top: 4.2rem;
+			border-color: rgba(0,175,237);
 		}
 
 		#header nav ul li:last-child a:hover {
@@ -1733,7 +1748,7 @@
 /* Header */
 
 .main-title {
-	font-size: 5rem;
+	font-size: 7rem;
 	color: #78c043;
 	text-transform: uppercase;
 }
