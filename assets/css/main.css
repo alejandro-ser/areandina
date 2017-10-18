@@ -213,10 +213,10 @@
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
 		font-family: 'Areandina Voz';
-		font-weight: 600;
+		*font-weight: 600;
 		line-height: 1.5rem;
 		margin: 0 0 1rem 0;
-		text-transform: uppercase;
+		*text-transform: uppercase;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -237,6 +237,8 @@
 	h2.major {
 		font-family: 'Brown Bold';
 		font-size: 1.6rem;
+		text-transform: capitalize;
+		*color: #78c043;
 	}
 
 	h1 {
@@ -1642,10 +1644,12 @@
 
 		#main article:nth-child(2) {
 			background-color: rgba(233,9,140,0.6);
+			width: 50rem;
 		}
 
 		#main article:nth-child(3) {
 			background-color: rgba(0,0,0,0.1);
+			width: 50rem;
 		}
 
 		#main article:nth-child(4) {
@@ -1659,6 +1663,7 @@
 
 		#main article:last-child {
 			background-color: rgba(0,175,237,0.6);
+			width: 50rem;
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1730,6 +1735,7 @@
 .main-title {
 	font-size: 5rem;
 	color: #78c043;
+	text-transform: uppercase;
 }
 
 
