@@ -1262,7 +1262,7 @@
 			-ms-transition: opacity 0.325s ease-in-out;
 			transition: opacity 0.325s ease-in-out;
 			position: relative;
-			margin-top: 3.5rem;
+			*margin-top: 3.5rem;
 		}
 
 		#header > *:before {
@@ -1322,9 +1322,8 @@
 			margin-bottom: 0;
 		}
 
-		#header .content img {
-		    width: 120px;
-		    border-radius: 50%;
+		#header .content .inner img {
+		    width: 80%;
 		}
 
 		#header .content p {
