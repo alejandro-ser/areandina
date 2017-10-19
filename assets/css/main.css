@@ -182,7 +182,7 @@
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+		*border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
 		text-decoration: none;
 		color: inherit;
 	}
@@ -1356,55 +1356,61 @@
 			display: block;
 			width: 12.2rem;
 			height: 12.2rem;
-			padding: 2.6rem 0.5rem;
+			padding: 2.6rem 0.2rem;
 			margin-left: 10px;
 			margin-right: 10px;
 			background-color: #fff;
 			box-shadow: 0px 0px 25px rgba(0,0,0,0.6);
-			border: 5px rgba(200,200,200,0.8) solid;
+			border-width: 5px;
+			border-style: solid;
 			border-radius: 50%;
 			color: #78c043;
 			font-family: 'Brown Bold';
-			font-size: 1.3rem;
+			font-size: 1.36rem;
 			line-height: 1.4rem;
 		}
 
-		#header nav ul li a:hover {
+		#header nav ul li a:hover,
+		#header nav ul li a:focus {
 			background-color: rgba(119,192,67,0.6);
 		}
 
-		#header nav ul li:first-child a:hover {
+		#header nav ul li:first-child a:hover,
+		#header nav ul li:first-child a:focus {
 		    background-color: rgba(244,156,47,0.6);
 		}
 
 		#header nav ul li:first-child a {
-		    border-color: rgba(244,156,47);
+		    border-color: #f69c2f;
 		}
 
 		#header nav ul li:nth-child(2) a {
 		    padding-top: 3.5rem;
-		    border-color: rgba(233,9,140);
+		    border-color: #e9098c;
 		}
 
-		#header nav ul li:nth-child(2) a:hover {
+		#header nav ul li:nth-child(2) a:hover,
+		#header nav ul li:nth-child(2) a:focus {
 		    background-color: rgba(233,9,140,0.6);
 		}
 
 		#header nav ul li:nth-child(3) a {
 			padding-top: 4rem;
-			border-color: rgba(0,0,0);
+			border-color: #000000;
 		}
 
-		#header nav ul li:nth-child(3) a:hover {
+		#header nav ul li:nth-child(3) a:hover,
+		#header nav ul li:nth-child(3) a:focus {
 			background-color: rgba(0,0,0,0.1);
 		}
 
 		#header nav ul li:nth-child(4) a {
 		    padding-top: 4.8rem;
-		    border-color: rgba(119,192,67);
+		    border-color: #78c043;
 		}
 
-		#header nav ul li:nth-child(4) a:hover {
+		#header nav ul li:nth-child(4) a:hover,
+		#header nav ul li:nth-child(4) a:focus {
 			background-color: rgba(119,192,67,0.6);
 		}
 
@@ -1412,16 +1418,18 @@
 			border-color: rgb(180,180,180);
 		}
 
-		#header nav ul li:nth-child(5) a:hover {
+		#header nav ul li:nth-child(5) a:hover,
+		#header nav ul li:nth-child(5) a:focus {
 			background-color: rgba(180,180,180,0.6);
 		}
 
 		#header nav ul li:last-child a {
 			padding-top: 4.2rem;
-			border-color: rgba(0,175,237);
+			border-color: #00afed;
 		}
 
-		#header nav ul li:last-child a:hover {
+		#header nav ul li:last-child a:hover,
+		#header nav ul li:last-child a:focus {
 			background-color: rgba(0,175,237,0.6);
 		}
 
@@ -1752,6 +1760,20 @@
 
 
 /* Inner pages*/
+
+article a.next-left {
+	position: absolute;
+	top: 30%;
+	left: -15%;
+	font-size: 9rem;
+}
+
+article a.next-right {
+	position: absolute;
+	top: 30%;
+	right: -15%;
+	font-size: 9rem;
+}
 
 .inner-box__footer {
     margin-top: 1rem;
