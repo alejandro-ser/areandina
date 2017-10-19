@@ -1332,7 +1332,7 @@
 			font-size: 1.1rem;
 		    letter-spacing: 0.05rem;
 		    line-height: 1.8;
-		    text-transform: uppercase;
+		    *text-transform: uppercase;
 		}
 
 		#header nav ul {
@@ -1720,10 +1720,7 @@
 
 		#footer .copyright {
 			font-family: 'Brown Light';
-			text-transform: uppercase;
-			letter-spacing: 0.1rem;
 			font-size: 0.8rem;
-			opacity: 0.75;
 			margin-bottom: 0;
 		}
 
@@ -1755,6 +1752,21 @@
 
 
 /* Inner pages*/
+
+.inner-box__footer {
+    margin-top: 1rem;
+    text-align: right;
+}
+
+.inner-box__footer a {
+	font-family: 'Brown Light';
+    font-size: 1.2rem;
+}
+
+.inner-box__footer a .fa-arrow-right {
+    margin-right: 10px;
+}
+
 /*#main .side-left {
     right: 75%;
     width: 30rem;
