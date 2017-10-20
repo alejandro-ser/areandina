@@ -399,6 +399,7 @@
 					<footer id="footer">
 						<p class="copyright">Vigilada <a href="http://www.mineducacion.gov.co/portal/" target="_blank">MinEducación</a>.</p>
 					</footer>
+					<a href="#" id="change-bg"><i class="fa fa-refresh"></i></a>
 			</div>
 
 		<!-- BG -->
@@ -420,6 +421,10 @@
 					    autoplay:true,
 					    autoplayTimeout:3000,
 					    autoplayHoverPause:false
+					});
+
+					$('#change-bg').click(function(event) {
+						$('#bg').toggleClass('bg-change');
 					});
 				});
 			</script>
