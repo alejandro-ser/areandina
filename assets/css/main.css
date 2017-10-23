@@ -1545,12 +1545,12 @@
 			top: 527px;
 			width: 6rem;
 			height: 6rem;
+			border-color: rgb(190,190,190);
 		}
 
 		#header nav ul li:last-child a:hover,
 		#header nav ul li:last-child a:focus {
-			background-color: rgba(120,192,67,0.6);
-			border-color: #78c043;
+			background-color: rgba(200,200,200,0.6);
 		}
 
 		#header nav ul li a:active {
