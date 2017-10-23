@@ -1446,8 +1446,8 @@
 		#header nav ul li a {
 			position: absolute;
 			display: block;
-			width: 12.2rem;
-			height: 12.2rem;
+			width: 11.3rem;
+			height: 11.3rem;
 			padding: 2.6rem 0.2rem;
 			margin-left: 10px;
 			margin-right: 10px;
@@ -1458,7 +1458,7 @@
 			border-radius: 50%;
 			color: #78c043;
 			font-family: 'Brown Bold';
-			font-size: 1.36rem;
+			font-size: 1.26rem;
 			line-height: 1.4rem;
 		}
 
@@ -1469,8 +1469,9 @@
 
 		#header nav ul li:first-child a {
 		    border-color: #f69c2f;
-		    left: 115px;
-		    top: 480px;
+		    padding: 3rem 0.4rem;
+		    left: 45px; /*115px;*/
+		    top: 380px;
 		}
 
 		#header nav ul li:first-child a:hover,
@@ -1479,10 +1480,10 @@
 		}
 
 		#header nav ul li:nth-child(2) a {
-		    padding-top: 3.5rem;
+		    padding-top: 2.7rem;
 		    border-color: #e9098c;
-		    left: 180px;
-		    top: 354px;
+		    left: 230px; /*180px;*/
+		    top: 254px;
 		}
 
 		#header nav ul li:nth-child(2) a:hover,
@@ -1491,10 +1492,10 @@
 		}
 
 		#header nav ul li:nth-child(3) a {
-			padding-top: 4rem;
+			padding-top: 3.8rem;
 			border-color: #000000;
-			left: 354px;
-		    top: 382px;
+			left: 450px; /*354px;*/
+		    top: 282px;
 		}
 
 		#header nav ul li:nth-child(3) a:hover,
@@ -1503,10 +1504,10 @@
 		}
 
 		#header nav ul li:nth-child(4) a {
-		    padding-top: 4.8rem;
+		    padding-top: 1.7rem;
 		    border-color: #78c043;
-		    left: 523px;
-		    top: 225px;
+		    left: 610px; /*523px;*/
+		    top: 125px;
 		}
 
 		#header nav ul li:nth-child(4) a:hover,
@@ -1516,8 +1517,9 @@
 
 		#header nav ul li:nth-child(5) a {
 			border-color: rgb(180,180,180);
-			left: 718px;
-		    top: 315px;
+			padding-top: 2rem;
+			left: 810px; /*718px;*/
+		    top: 215px;
 		}
 
 		#header nav ul li:nth-child(5) a:hover,
@@ -1528,8 +1530,8 @@
 		#header nav ul li:nth-child(6) a {
 			padding-top: 4.2rem;
 			border-color: #00afed;
-			left: 895px;
-		    top: 420px;
+			left: 1000px; /*895px;*/
+		    top: 320px;
 		}
 
 		#header nav ul li:nth-child(6) a:hover,
@@ -1539,7 +1541,7 @@
 
 		#header nav ul li:last-child a {
 			padding-top: 2rem;
-			left: 1155px;
+			left: 1200px; /*1155px;*/
 			top: 527px;
 			width: 7rem;
 			height: 7rem;
