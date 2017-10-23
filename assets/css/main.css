@@ -1468,7 +1468,7 @@
 		}
 
 		#header nav ul li:first-child a {
-		    border-color: #f69c2f;
+		    border-color: #000000;
 		    padding: 3rem 0.4rem;
 		    left: 45px; /*115px;*/
 		    top: 380px;
@@ -1476,7 +1476,7 @@
 
 		#header nav ul li:first-child a:hover,
 		#header nav ul li:first-child a:focus {
-		    background-color: rgba(244,156,47,0.6);
+		    background-color: rgba(0,0,0,0.8);
 		}
 
 		#header nav ul li:nth-child(2) a {
@@ -1493,30 +1493,30 @@
 
 		#header nav ul li:nth-child(3) a {
 			padding-top: 3.8rem;
-			border-color: #000000;
+			border-color: #00afed;
 			left: 450px; /*354px;*/
 		    top: 282px;
 		}
 
 		#header nav ul li:nth-child(3) a:hover,
 		#header nav ul li:nth-child(3) a:focus {
-			background-color: rgba(0,0,0,0.1);
+			background-color: rgba(0,175,237,0.6);
 		}
 
 		#header nav ul li:nth-child(4) a {
 		    padding-top: 1.7rem;
-		    border-color: #78c043;
+		    border-color: rgb(120,120,120);
 		    left: 610px; /*523px;*/
 		    top: 125px;
 		}
 
 		#header nav ul li:nth-child(4) a:hover,
 		#header nav ul li:nth-child(4) a:focus {
-			background-color: rgba(119,192,67,0.6);
+			background-color: rgba(120,120,120,0.6);
 		}
 
 		#header nav ul li:nth-child(5) a {
-			border-color: rgb(180,180,180);
+			border-color: #f69c2f;
 			padding-top: 2rem;
 			left: 810px; /*718px;*/
 		    top: 215px;
@@ -1524,19 +1524,19 @@
 
 		#header nav ul li:nth-child(5) a:hover,
 		#header nav ul li:nth-child(5) a:focus {
-			background-color: rgba(180,180,180,0.6);
+			background-color: rgba(244,156,47,0.6);
 		}
 
 		#header nav ul li:nth-child(6) a {
 			padding-top: 4.2rem;
-			border-color: #00afed;
+			border-color: #78c043;
 			left: 1000px; /*895px;*/
 		    top: 320px;
 		}
 
 		#header nav ul li:nth-child(6) a:hover,
 		#header nav ul li:nth-child(6) a:focus {
-			background-color: rgba(0,175,237,0.6);
+			background-color: rgba(120,192,67,0.6);
 		}
 
 		#header nav ul li:last-child a {
@@ -1788,7 +1788,7 @@
 				}
 
 		#main article:first-child {
-			background-color: rgba(244,156,47,0.6);
+			background-color: rgba(0,0,0,0.8);
 		}
 
 		#main article:nth-child(2) {
@@ -1796,19 +1796,19 @@
 		}
 
 		#main article:nth-child(3) {
-			background-color: rgba(0,0,0,0.1);
+			background-color: rgba(0,175,237,0.6);
 		}
 
 		#main article:nth-child(4) {
-			background-color: rgba(120,192,67,0.6)
+			background-color: rgba(120,120,120,0.6);
 		}
 
 		#main article:nth-child(5) {
-			background-color: rgba(180,180,180,0.6);
+			background-color: rgba(244,156,47,0.6);
 		}
 
 		#main article:last-child {
-			background-color: rgba(0,175,237,0.6);
+			background-color: rgba(120,192,67,0.6);
 		}
 
 		@media screen and (max-width: 736px) {
@@ -1888,6 +1888,7 @@ article a.next-left {
 	top: 30%;
 	left: -10%;
 	font-size: 9rem;
+	color: #333;
 }
 
 article a.next-right {
@@ -1895,6 +1896,11 @@ article a.next-right {
 	top: 30%;
 	right: -10%;
 	font-size: 9rem;
+	color: #333;
+}
+
+.inner-box img {
+	width: 100%;
 }
 
 .inner-box__footer {
