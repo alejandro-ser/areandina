@@ -1136,7 +1136,8 @@
 			-webkit-transition-delay: 0.75s;
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
-			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+			*background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
+			background-color: #fff;
 			background-size: auto, 256px 256px;
 			background-position: center, center;
 			background-repeat: no-repeat, repeat;
@@ -1171,7 +1172,7 @@
 		}
 
 		body.is-loading #bg:before {
-			background-color: #000000;
+			background-color: #fff;
 		}
 
 /* Wrapper */
@@ -1208,7 +1209,7 @@
 		@media screen and (max-width: 1680px) {
 
 			#wrapper {
-				padding: 0rem 2rem 3rem;
+				padding: 0;
 			}
 
 		}
@@ -1253,6 +1254,7 @@
 		background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, transparent 55%);
 		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, transparent 55%);*/
 		max-width: 100%;
+		height: 100vh;
 		text-align: center;
 	}
 
@@ -1261,7 +1263,7 @@
 			-webkit-transition: opacity 0.325s ease-in-out;
 			-ms-transition: opacity 0.325s ease-in-out;
 			transition: opacity 0.325s ease-in-out;
-			position: relative;
+			*position: relative;
 			*margin-top: 3.5rem;
 		}
 
@@ -1352,6 +1354,7 @@
 		}
 
 		#header nav ul li a {
+			position: absolute;
 			display: block;
 			width: 12.2rem;
 			height: 12.2rem;
@@ -1374,18 +1377,22 @@
 			background-color: rgba(119,192,67,0.6);
 		}
 
+		#header nav ul li:first-child a {
+		    border-color: #f69c2f;
+		    left: 215px;
+		    top: 480px;
+		}
+
 		#header nav ul li:first-child a:hover,
 		#header nav ul li:first-child a:focus {
 		    background-color: rgba(244,156,47,0.6);
 		}
 
-		#header nav ul li:first-child a {
-		    border-color: #f69c2f;
-		}
-
 		#header nav ul li:nth-child(2) a {
 		    padding-top: 3.5rem;
 		    border-color: #e9098c;
+		    left: 280px;
+		    top: 354px;
 		}
 
 		#header nav ul li:nth-child(2) a:hover,
@@ -1396,6 +1403,8 @@
 		#header nav ul li:nth-child(3) a {
 			padding-top: 4rem;
 			border-color: #000000;
+			left: 454px;
+		    top: 382px;
 		}
 
 		#header nav ul li:nth-child(3) a:hover,
@@ -1406,6 +1415,8 @@
 		#header nav ul li:nth-child(4) a {
 		    padding-top: 4.8rem;
 		    border-color: #78c043;
+		    left: 623px;
+		    top: 225px;
 		}
 
 		#header nav ul li:nth-child(4) a:hover,
@@ -1415,6 +1426,8 @@
 
 		#header nav ul li:nth-child(5) a {
 			border-color: rgb(180,180,180);
+			left: 818px;
+		    top: 315px;
 		}
 
 		#header nav ul li:nth-child(5) a:hover,
@@ -1422,9 +1435,25 @@
 			background-color: rgba(180,180,180,0.6);
 		}
 
-		#header nav ul li:last-child a {
+		#header nav ul li:nth-child(6) a {
 			padding-top: 4.2rem;
 			border-color: #00afed;
+			left: 995px;
+		    top: 420px;
+		}
+
+		#header nav ul li:nth-child(6) a:hover,
+		#header nav ul li:nth-child(6) a:focus {
+			background-color: rgba(0,175,237,0.6);
+		}
+
+		#header nav ul li:last-child a {
+			padding-top: 2rem;
+			border-color: #00afed;
+			left: 1255px;
+			top: 527px;
+			width: 7rem;
+			height: 7rem;
 		}
 
 		#header nav ul li:last-child a:hover,
