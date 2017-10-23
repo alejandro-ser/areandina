@@ -1379,7 +1379,7 @@
 
 		#header nav ul li:first-child a {
 		    border-color: #f69c2f;
-		    left: 215px;
+		    left: 115px;
 		    top: 480px;
 		}
 
@@ -1391,7 +1391,7 @@
 		#header nav ul li:nth-child(2) a {
 		    padding-top: 3.5rem;
 		    border-color: #e9098c;
-		    left: 280px;
+		    left: 180px;
 		    top: 354px;
 		}
 
@@ -1403,7 +1403,7 @@
 		#header nav ul li:nth-child(3) a {
 			padding-top: 4rem;
 			border-color: #000000;
-			left: 454px;
+			left: 354px;
 		    top: 382px;
 		}
 
@@ -1415,7 +1415,7 @@
 		#header nav ul li:nth-child(4) a {
 		    padding-top: 4.8rem;
 		    border-color: #78c043;
-		    left: 623px;
+		    left: 523px;
 		    top: 225px;
 		}
 
@@ -1426,7 +1426,7 @@
 
 		#header nav ul li:nth-child(5) a {
 			border-color: rgb(180,180,180);
-			left: 818px;
+			left: 718px;
 		    top: 315px;
 		}
 
@@ -1438,7 +1438,7 @@
 		#header nav ul li:nth-child(6) a {
 			padding-top: 4.2rem;
 			border-color: #00afed;
-			left: 995px;
+			left: 895px;
 		    top: 420px;
 		}
 
@@ -1450,7 +1450,7 @@
 		#header nav ul li:last-child a {
 			padding-top: 2rem;
 			border-color: #00afed;
-			left: 1255px;
+			left: 1155px;
 			top: 527px;
 			width: 7rem;
 			height: 7rem;
