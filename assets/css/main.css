@@ -1449,7 +1449,6 @@
 
 		#header nav ul li:last-child a {
 			padding-top: 2rem;
-			border-color: #00afed;
 			left: 1155px;
 			top: 527px;
 			width: 7rem;
@@ -1474,6 +1473,13 @@
 			width: 1px;
 			height: 100%;
 			background: #ffffff;
+		}
+
+		#header nav img {
+			width: 500px;
+			position: absolute;
+			left: 430px;
+			top: 600px;
 		}
 
 		#header nav.use-middle ul li.is-middle {
