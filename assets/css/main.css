@@ -1513,6 +1513,7 @@
 		#header nav ul li:nth-child(4) a:hover,
 		#header nav ul li:nth-child(4) a:focus {
 			background-color: rgba(120,120,120,0.6);
+			color: #ffffff;
 		}
 
 		#header nav ul li:nth-child(5) a {
