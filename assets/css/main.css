@@ -1540,16 +1540,17 @@
 		}
 
 		#header nav ul li:last-child a {
-			padding-top: 2rem;
-			left: 1200px; /*1155px;*/
+			padding-top: 1.6rem;
+			left: 1200px;
 			top: 527px;
-			width: 7rem;
-			height: 7rem;
+			width: 6rem;
+			height: 6rem;
 		}
 
 		#header nav ul li:last-child a:hover,
 		#header nav ul li:last-child a:focus {
-			background-color: rgba(0,175,237,0.6);
+			background-color: rgba(120,192,67,0.6);
+			border-color: #78c043;
 		}
 
 		#header nav ul li a:active {
