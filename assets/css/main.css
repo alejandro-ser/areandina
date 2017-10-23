@@ -1734,7 +1734,7 @@
 		position: relative;
 		width: 58rem;
 		min-width: 80%;
-		background-color: rgba(119,192,67,0.35);
+		background-color: rgba(0,0,0,0.8);
 		border-radius: 2px;
 		opacity: 0;
 		top: 20px;
@@ -1788,7 +1788,7 @@
 					background-color: rgba(255, 255, 255, 0.175);
 				}
 
-		#main article:first-child {
+		/*#main article:first-child {
 			background-color: rgba(0,0,0,0.8);
 		}
 
@@ -1810,7 +1810,7 @@
 
 		#main article:last-child {
 			background-color: rgba(120,192,67,0.6);
-		}
+		}*/
 
 		@media screen and (max-width: 736px) {
 
