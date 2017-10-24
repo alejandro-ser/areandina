@@ -1456,7 +1456,7 @@
 			border-width: 5px;
 			border-style: solid;
 			border-radius: 50%;
-			color: #78c043;
+			color: #ffffff;
 			font-family: 'Brown Bold';
 			font-size: 1.26rem;
 			line-height: 1.4rem;
@@ -1468,6 +1468,7 @@
 		}
 
 		#header nav ul li:first-child a {
+			background-color: rgba(0,0,0,0.8);
 		    border-color: #000000;
 		    padding: 3rem 0.4rem;
 		    left: 45px; /*115px;*/
@@ -1476,10 +1477,11 @@
 
 		#header nav ul li:first-child a:hover,
 		#header nav ul li:first-child a:focus {
-		    background-color: rgba(0,0,0,0.8);
+		    background-color: rgba(0,0,0,0.7);
 		}
 
 		#header nav ul li:nth-child(2) a {
+			background-color: rgba(233,9,140,0.8);
 		    padding-top: 2.7rem;
 		    border-color: #e9098c;
 		    left: 230px; /*180px;*/
@@ -1492,6 +1494,7 @@
 		}
 
 		#header nav ul li:nth-child(3) a {
+			background-color: rgba(0,175,237,0.8);
 			padding-top: 3.8rem;
 			border-color: #00afed;
 			left: 450px; /*354px;*/
@@ -1504,6 +1507,7 @@
 		}
 
 		#header nav ul li:nth-child(4) a {
+			background-color: rgba(120,120,120,0.8);
 		    padding-top: 1.7rem;
 		    border-color: rgb(120,120,120);
 		    left: 610px; /*523px;*/
@@ -1513,10 +1517,10 @@
 		#header nav ul li:nth-child(4) a:hover,
 		#header nav ul li:nth-child(4) a:focus {
 			background-color: rgba(120,120,120,0.6);
-			color: #ffffff;
 		}
 
 		#header nav ul li:nth-child(5) a {
+			background-color: rgba(244,156,47,0.8);
 			border-color: #f69c2f;
 			padding-top: 2rem;
 			left: 810px; /*718px;*/
@@ -1529,6 +1533,7 @@
 		}
 
 		#header nav ul li:nth-child(6) a {
+			background-color: rgba(120,192,67,0.8);
 			padding-top: 4.2rem;
 			border-color: #78c043;
 			left: 1000px; /*895px;*/
@@ -1547,6 +1552,7 @@
 			width: 6rem;
 			height: 6rem;
 			border-color: rgb(190,190,190);
+			background-color: rgba(200,200,200,0.8);
 		}
 
 		#header nav ul li:last-child a:hover,
