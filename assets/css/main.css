@@ -1471,8 +1471,10 @@
 			background-color: rgba(0,0,0,0.8);
 		    border-color: #000000;
 		    padding: 3rem 0.4rem;
-		    left: 45px; /*115px;*/
-		    top: 380px;
+		    left: 85px;
+			top: 380px;
+		    /*left: 45px;
+		    top: 380px;*/
 		}
 
 		#header nav ul li:first-child a:hover,
@@ -1484,8 +1486,10 @@
 			background-color: rgba(233,9,140,0.8);
 		    padding-top: 2.7rem;
 		    border-color: #e9098c;
-		    left: 230px; /*180px;*/
-		    top: 254px;
+		    left: 100px;
+			top: 180px;
+		    /*left: 230px;
+		    top: 254px;*/
 		}
 
 		#header nav ul li:nth-child(2) a:hover,
@@ -1497,8 +1501,10 @@
 			background-color: rgba(0,175,237,0.8);
 			padding-top: 3.8rem;
 			border-color: #00afed;
-			left: 450px; /*354px;*/
-		    top: 282px;
+			left: 330px;
+			top: 282px;
+			/*left: 450px;
+		    top: 282px;*/
 		}
 
 		#header nav ul li:nth-child(3) a:hover,
@@ -1510,8 +1516,10 @@
 			background-color: rgba(120,120,120,0.8);
 		    padding-top: 1.7rem;
 		    border-color: rgb(120,120,120);
-		    left: 610px; /*523px;*/
-		    top: 125px;
+		    left: 560px;
+			top: 125px;
+		    /*left: 610px;
+		    top: 125px;*/
 		}
 
 		#header nav ul li:nth-child(4) a:hover,
@@ -1523,8 +1531,10 @@
 			background-color: rgba(244,156,47,0.8);
 			border-color: #f69c2f;
 			padding-top: 2rem;
-			left: 810px; /*718px;*/
-		    top: 215px;
+			left: 780px;
+			top: 215px;
+			/*left: 810px;
+		    top: 215px;*/
 		}
 
 		#header nav ul li:nth-child(5) a:hover,
@@ -1536,8 +1546,10 @@
 			background-color: rgba(120,192,67,0.8);
 			padding-top: 4.2rem;
 			border-color: #78c043;
-			left: 1000px; /*895px;*/
-		    top: 320px;
+			left: 970px;
+			top: 320px;
+			/*left: 1000px;
+		    top: 320px;*/
 		}
 
 		#header nav ul li:nth-child(6) a:hover,
@@ -1548,7 +1560,7 @@
 		#header nav ul li:last-child a {
 			padding-top: 1.6rem;
 			left: 1200px;
-			top: 527px;
+			top: 500px;
 			width: 6rem;
 			height: 6rem;
 			border-color: rgb(190,190,190);
