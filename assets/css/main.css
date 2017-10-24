@@ -1558,18 +1558,18 @@
 		}
 
 		#header nav ul li:last-child a {
-			padding-top: 1.6rem;
-			left: 1200px;
+			padding-top: 2.5rem;
+			left: 1180px;
 			top: 500px;
-			width: 6rem;
-			height: 6rem;
-			border-color: rgb(190,190,190);
-			background-color: rgba(200,200,200,0.8);
+			width: 8rem;
+			height: 8rem;
+			border-color: #000000;
+			background-color: rgba(0,0,0,0.8);
 		}
 
 		#header nav ul li:last-child a:hover,
 		#header nav ul li:last-child a:focus {
-			background-color: rgba(200,200,200,0.6);
+			background-color: rgba(0,0,0,0.6);
 		}
 
 		#header nav ul li a:active {

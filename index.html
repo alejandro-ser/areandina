@@ -59,7 +59,7 @@
 								</a>
 								<h2 class="major">Facultad de Ingenierías y Ciencias Básicas</h2>
 								<div class="inner-box">
-									<img src="images/F_INGENIERIAS.gif" alt="Facultad de Ingenierías y Ciencias Básicas">
+									<img src="images/F_INGENIERIAS.gif" id="imgOne" alt="Facultad de Ingenierías y Ciencias Básicas">
 									<!-- <div class="inner-box__footer">
 										<a class="inner-box__footer__btn" href="https://www.areandina.edu.co/areas-de-estudio/facultad-de-ingenierias-y-ciencias-basicas" target="_blank"><i class="fa fa-arrow-right"></i>Ir a la Facultad de Ingenierías y Ciencias Básicas</a>
 									</div> -->
@@ -184,19 +184,23 @@
 			<script src="assets/js/main.js"></script>
 			<script type="text/javascript">
 				$(document).ready(function(){
-					var owl = $('.owl-carousel');
-					owl.owlCarousel({
-					    items:4,
-					    loop:true,
-					    margin:10,
-					    autoplay:true,
-					    autoplayTimeout:3000,
-					    autoplayHoverPause:false
-					});
 
-					$('#change-bg').click(function(event) {
-						$('#bg').toggleClass('bg-change');
-					});
+					// $('img').remove();
+
+					// $('#closeFaculty').click(function() {
+					// 	$('img').remove();
+					// });
+
+					// $('.facultyOne').click(function() {
+					// 	$('#facultyOne .inner-box').append('<img src="images/F_INGENIERIAS.gif" id="imgOne" alt="Facultad de Ingenierías y Ciencias Básicas">');
+					// });
+
+					// $('#facultyTwo .next-left').click(function() {
+					// 	$('img').remove();
+					// 	$('#facultyOne .inner-box').append('<img src="images/F_INGENIERIAS.gif" id="imgOne" alt="Facultad de Ingenierías y Ciencias Básicas">');
+					// });
+
+
 				});
 			</script>
 	</body>
